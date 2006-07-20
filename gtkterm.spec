@@ -22,7 +22,7 @@ simple, that is to say, that it can only communicate with a serial
 link and that it does not support all the modem protocols.
 
 %description -l pl
-Jest to klon s³awnego Hyperterminala. Jednak jest o wile prostszy, to
+Jest to klon s³awnego Hyperterminala. Jednak jest o wiele prostszy, to
 znaczy mo¿e komunikowaæ siê tylko z portem, ale nie wspiera wszystkich
 protoko³ów modemowych
 
