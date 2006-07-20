@@ -10,10 +10,10 @@ Source0:	http://www.jls-info.com/julien/linux/%{name}-%{version}.tar.gz
 URL:		http://www.jls-info.com/julien/linux/
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	gtk+2-devel
-BuildRequires:	intltool
-BuildRequires:	libtool
+BuildRequires:	gtk+2-devel >= 2.0.0
 BuildRequires:	ncurses-devel
+BuildRequires:	pkgconfig
+BuildRequires:	vte-devel >= 0.10.4
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -30,9 +30,7 @@ protoko³ów modemowych
 %setup -q
 
 %build
-%{__intltoolize}
 %{__gettextize}
-%{__libtoolize}
 %{__aclocal} -I m4
 %{__autoconf}
 %{__autoheader}
