@@ -1,5 +1,5 @@
 Summary:	gtkterm - clone of the Hyperterminal
-Summary(pl.UTF-8):   gtkterm - klon Hyperterminala
+Summary(pl.UTF-8):	gtkterm - klon Hyperterminala
 Name:		gtkterm
 Version:	0.99.5
 Release:	1
