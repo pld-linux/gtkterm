@@ -1,5 +1,5 @@
 Summary:	gtkterm - clone of the Hyperterminal
-Summary(pl):	gtkterm - klon Hyperterminala
+Summary(pl.UTF-8):   gtkterm - klon Hyperterminala
 Name:		gtkterm
 Version:	0.99.5
 Release:	1
@@ -21,10 +21,10 @@ It is a "clone" of the famous Hyperterminal. But it is much more
 simple, that is to say, that it can only communicate with a serial
 link and that it does not support all the modem protocols.
 
-%description -l pl
-Jest to klon s³awnego Hyperterminala. Jednak jest o wiele prostszy, to
-znaczy mo¿e komunikowaæ siê tylko z portem, ale nie wspiera wszystkich
-protoko³ów modemowych
+%description -l pl.UTF-8
+Jest to klon sÅ‚awnego Hyperterminala. Jednak jest o wiele prostszy, to
+znaczy moÅ¼e komunikowaÄ‡ siÄ™ tylko z portem, ale nie wspiera wszystkich
+protokoÅ‚Ã³w modemowych
 
 %prep
 %setup -q
